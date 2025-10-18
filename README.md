@@ -33,6 +33,10 @@ A single HTML file named `index.html`. It should include:
 * Follow clean, readable HTML code structure.
 
 
+
+
+html-wk1-assignment:
+
 <!DOCTYPE html>
 ‎<html lang="en">
 ‎
@@ -96,4 +100,213 @@ A single HTML file named `index.html`. It should include:
 ‎</body>
 ‎
 ‎</html>
+
+
+
+html-wk2-assignment:
+
+Submit a single HTML file named enhanced-form.html. It should include:
+
+Well-structured content using lists, tables, and media.
+
+A complete HTML5 form including a variety of input fields.
+
+Correct use of form attributes such as placeholder, required, autocomplete, and readonly.
+
+HTML5 validation features implemented correctly across all relevant fields.
+
+A clear, accessible layout using semantic tags.
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        section {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="checkbox"] {
+            width: auto;
+        }
+        button {
+            grid-column: span 2;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .form-section {
+            margin-bottom: 20px;
+        }
+        .list-style {
+            list-style-type: square;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table th, table td {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        table th {
+            background-color: #f2f2f2;
+        }
+        .media {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Enhanced HTML5 Form</h1>
+</header>
+
+<section>
+    <h2>Personal Information</h2>
+    <form action="#" method="post">
+        <!-- Name Field -->
+        <div class="form-section">
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" placeholder="John Doe" required autocomplete="name">
+        </div>
+
+        <!-- Email Field -->
+        <div class="form-section">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@mail.com" required autocomplete="email">
+        </div>
+
+        <!-- Phone Number Field -->
+        <div class="form-section">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="123-456-7890" required autocomplete="tel">
+        </div>
+
+        <!-- Date of Birth Field -->
+        <div class="form-section">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+
+        <!-- Gender Selection -->
+        <div class="form-section">
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="" disabled selected>Select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <!-- Subscribe Checkbox -->
+        <div class="form-section">
+            <label for="subscribe">
+                <input type="checkbox" id="subscribe" name="subscribe" checked> Subscribe to newsletter
+            </label>
+        </div>
+
+        <!-- Comments Section -->
+        <div class="form-section">
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4" placeholder="Write your comments here..." autocomplete="off"></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<section>
+    <h2>Additional Information</h2>
+
+    <!-- List -->
+    <h3>Top Programming Languages:</h3>
+    <ul class="list-style">
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>Ruby</li>
+    </ul>
+
+    <!-- Table -->
+    <h3>Course Details</h3>
+    <table>
+        <tr>
+            <th>Course</th>
+            <th>Duration</th>
+            <th>Instructor</th>
+        </tr>
+        <tr>
+            <td>Web Development</td>
+            <td>3 Months</td>
+            <td>John Smith</td>
+        </tr>
+        <tr>
+            <td>Data Science</td>
+            <td>6 Months</td>
+            <td>Jane Doe</td>
+        </tr>
+        <tr>
+            <td>Machine Learning</td>
+            <td>4 Months</td>
+            <td>Jim Bean</td>
+        </tr>
+    </table>
+
+    <!-- Media Section -->
+    <h3>Our Office Location</h3>
+    <img src="https://via.placeholder.com/800x400" alt="Office Location" class="media">
+    <p>We are located at the heart of the city. Our office hours are 9 AM to 5 PM, Monday through Friday.</p>
+</section>
+
+</body>
+</html>
+
 ‎
