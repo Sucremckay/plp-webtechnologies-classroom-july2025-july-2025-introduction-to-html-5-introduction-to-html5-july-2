@@ -1,4 +1,4 @@
-# 📘 Assignment: HTML5 + Accessibility & SEO Basics
+# 📘 /* Assignment1 : HTML5 + Accessibility & SEO Basics
 
 ## Overview
 
@@ -30,12 +30,12 @@ A single HTML file named `index.html`. It should include:
 * Use HTML5 semantic tags appropriately.
 * Organize content with accessibility in mind.
 * Apply basic on-page SEO techniques.
-* Follow clean, readable HTML code structure.
+* Follow clean, readable HTML code structure.*/
 
 
 
 
-html-wk1-assignment:
+/* html-wk1-assignment */
 
 <!DOCTYPE html>
 ‎<html lang="en">
@@ -103,7 +103,7 @@ html-wk1-assignment:
 
 
 
-html-wk2-assignment:
+/* html-wk2-assignment:
 
 Submit a single HTML file named enhanced-form.html. It should include:
 
@@ -115,7 +115,7 @@ Correct use of form attributes such as placeholder, required, autocomplete, and 
 
 HTML5 validation features implemented correctly across all relevant fields.
 
-A clear, accessible layout using semantic tags.
+A clear, accessible layout using semantic tags.*/
 
 
 <!DOCTYPE html>
@@ -309,4 +309,126 @@ A clear, accessible layout using semantic tags.
 </body>
 </html>
 
+
+/* html-wk3-Assignment:
+‎Submit the following files:
+‎
+‎index.html: A basic HTML page with structured content.
+‎
+‎styles.css: Your external stylesheet containing all your CSS rules.
+‎
+‎Both files should work together to showcase:
+‎
+‎Proper use of selectors and basic styling properties
+‎
+‎Clear implementation of the CSS Box Model
+‎
+‎Consistent spacing, sizing, and layout styling */
+‎
+‎
+‎/* index.html */
+‎<!DOCTYPE html>
+‎<html lang="en">
+‎<head>
+‎    <meta charset="UTF-8">
+‎    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+‎    <title>Basic HTML and CSS Example</title>
+‎    <link rel="stylesheet" href="styles.css">
+‎</head>
+‎<body>
+‎    <header>
+‎        <h1>Welcome to My Website</h1>
+‎        <p>This is a basic page demonstrating HTML and CSS styling.</p>
+‎    </header>
+‎
+‎    <section class="content">
+‎        <article>
+‎            <h2>Article 1</h2>
+‎            <p>This is some content for the first article. It demonstrates basic layout and styling.</p>
+‎        </article>
+‎
+‎        <article>
+‎            <h2>Article 2</h2>
+‎            <p>This is some content for the second article. It demonstrates basic layout and styling as well.</p>
+‎        </article>
+‎    </section>
+‎
+‎    <footer>
+‎        <p>&copy; 2025 My Website</p>
+‎    </footer>
+‎</body>
+‎</html>
+‎
+‎
+‎/* style.css */
+‎/* Resetting default margin and padding */
+‎* {
+‎    margin: 0;
+‎    padding: 0;
+‎    box-sizing: border-box;
+‎}
+‎
+‎/* Body styling */
+‎body {
+‎    font-family: Arial, sans-serif;
+‎    line-height: 1.6;
+‎    background-color: #f4f4f4;
+‎    color: #333;
+‎    margin: 0;
+‎    padding: 20px;
+‎}
+‎
+‎/* Header styling */
+‎header {
+‎    background-color: #333;
+‎    color: #fff;
+‎    padding: 20px;
+‎    text-align: center;
+‎    margin-bottom: 20px;
+‎}
+‎
+‎header h1 {
+‎    margin: 0;
+‎    font-size: 2.5rem;
+‎}
+‎
+‎header p {
+‎    font-size: 1rem;
+‎}
+‎
+‎/* Content section styling */
+‎.content {
+‎    display: flex;
+‎    justify-content: space-between;
+‎    gap: 20px;
+‎    margin-bottom: 20px;
+‎}
+‎
+‎article {
+‎    background-color: #fff;
+‎    border: 1px solid #ddd;
+‎    padding: 20px;
+‎    width: 48%; /* Flexbox will manage spacing */
+‎    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+‎}
+‎
+‎article h2 {
+‎    margin-bottom: 15px;
+‎    font-size: 1.5rem;
+‎}
+‎
+‎article p {
+‎    font-size: 1rem;
+‎    line-height: 1.5;
+‎}
+‎
+‎/* Footer styling */
+‎footer {
+‎    background-color: #333;
+‎    color: #fff;
+‎    text-align: center;
+‎    padding: 10px;
+‎}
+‎
+‎
 ‎
